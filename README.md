@@ -3,7 +3,7 @@ Example of the browse page built in React with Styled Components
 
 ## Use
 * git clone https://github.com/jiwothur/Netflex_React.git
-* cd react-node-netflix
+* cd Netflex_React
 * npm i
 * npm start
 
