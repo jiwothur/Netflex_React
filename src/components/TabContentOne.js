@@ -14,7 +14,7 @@ const TabContentOne = (props) => {
             </span> <br />
             <Button style={{marginTop:'2rem'}} >try it now</Button>
           </div>
-            <img src={Img} />
+            <img src={Img} alt="img" />
         </div>
       </div>
     </TabContentContainer>

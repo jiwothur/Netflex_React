@@ -20,19 +20,19 @@ const TabContentTwo = (props) => {
         <div className="tab-bottom-content">
           {/* Tv Image Container */}
           <div>
-            <img src={ImgTv} style={{width:'18.75rem'}}/>
+            <img src={ImgTv} alt="ImgTv" style={{width:'18.75rem'}}/>
             <h3>Watch on your TV</h3>
             <p>Smart TVs, PlayStation, Xbox, Chromecast Apple TV, Blu-ray players and more. </p>
           </div>
           {/* Tablet Image Container */}
           <div>
-            <img src={ImgTablet} style={{width:'18.75rem', paddingTop:'0.625rem'}}/>
+            <img src={ImgTablet} alt="ImgTablet" style={{width:'18.75rem', paddingTop:'0.625rem'}}/>
             <h3>Watch on your TV</h3>
             <p>Smar TVs, PlayStation, Xbox, Chromecast Apple TV, Blu-ray players and more. </p>
           </div>
           {/* Macbook Image Container */}
           <div>
-            <img src={ImgMacbook} style={{width:'18.75rem',paddingTop:'0.625rem',paddingBottom:'0.625rem'}}/>
+            <img src={ImgMacbook}alt="ImgMacbook" style={{width:'18.75rem',paddingTop:'0.625rem',paddingBottom:'0.625rem'}}/>
             <h3>Watch on your TV</h3>
             <p>Smar TVs, PlayStation, Xbox, Chromecast Apple TV, Blu-ray players and more. </p>
           </div>
