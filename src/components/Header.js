@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../svg/logo.svg';
 import { NavLink,Link } from 'react-router-dom';
 import styled from 'styled-components';
+import {Button} from './Button';
 import {Icon} from 'react-icons-kit';
 import {ic_navigate_next} from 'react-icons-kit/md/ic_navigate_next';
 class Header extends Component {
@@ -17,10 +18,10 @@ class Header extends Component {
       <div className="header-content">
         <Title>See what's next.</Title>
         <SubTitle>WATCH ANYWHERE. CANCEL ANYTIME .</SubTitle>
-        <Link className="main-offer-btn">
+        <Button className="main-offer-btn" primary>
           try it now
           <Icon className="Icon"icon={ic_navigate_next} size ={37} />
-        </Link>
+        </Button>
       </div>
     </HeaderComponent>
     )
@@ -42,6 +43,7 @@ const Logo = styled.img `
 //Header Container
 const HeaderComponent = styled.div`
 .signIn-btn {
+  
   right: 0;
   margin:1.125rem 3% 0;
   padding: 0.4375rem 1.0625rem;
@@ -49,6 +51,7 @@ const HeaderComponent = styled.div`
   line-height: normal;
   border-radius: 0.1875rem;
   font-size:1rem;
+  border: none;
   background: var(--main-red);
   position: absolute;
   translate: transform(-50%, -50%);
